@@ -1,0 +1,92 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(139, 185, 179);
+    color:black;
+    font-weight: bold;
+    font-size:19px;
+
+}
+.home{
+    display: flex;
+    gap:0.5rem;
+}
+#home-link{
+    margin-top:1rem;
+}
+#hero-img{
+    border-radius: 1rem;
+}
+#document-link{
+    text-decoration:none;
+    color:black;
+    margin-top:1rem;
+    margin-right: 1rem;;
+}
+#main-heading{
+    text-decoration: underline;
+    color: rgb(29, 8, 34);
+    /* margin-top: -2rem; */
+}
+.container{
+    width: 100%;
+
+    background-color:rgb(233, 218, 207)
+}
+.imag-head{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:red; */
+
+}
+#img-heading{
+    font-size:29px;
+    text-align: center;
+}
+#startedBtn{
+    border-radius: 2rem;
+    padding:1rem;
+    background-color:rgb(53, 92, 223);
+    margin-bottom: 2rem;
+}
+#github{
+    border-radius: 2rem;
+    padding:1rem;
+    /* background-color:rgb(53, 92, 223); */
+
+}
+#github-Link{
+    text-decoration: none;
+    font-size:17px;
+    font-weight:bold;
+    color:black;
+}
+#started-Link{
+    text-decoration: none;
+    font-weight:bold;
+    font-size:17px;
+    color:white;
+}
+#startedBtn:hover{
+    background-color:rgb(12, 52, 197);
+}
+#github:hover{
+    background-color:rgb(185, 189, 204);
+}
+.footer{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    background-color:rgb(139, 185, 179);
+    color:rgb(165, 143, 143);
+    font-weight: bold;
+    padding:2.5rem;
+    font-size:19px;
+}
+a{
+    text-decoration: none;
+    color: rgb(22, 27, 29);
+}
