@@ -1,3 +1,9 @@
+.radius{
+    border-radius:50%;
+}
+.code{
+    padding:2rem 0rem 0rem 0rem;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -5,12 +11,17 @@
     color:black;
     font-weight: bold;
     font-size:19px;
+    padding:1rem;
+    border-radius:1rem;
+    position:sticky;
+    top:0;
+    z-index:1;
 }
 .home{
     display: flex;
     gap:0.5rem;
 }
-#home-link{
+.home-link{
     margin-top:1rem;
     text-decoration: none;
     color:black;
@@ -24,7 +35,8 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    width: 150px;
+    width: 12rem;
+    height:100vh;
     margin-top: 1rem;
     padding: 0rem 1rem 1rem 1rem;
     border-radius: 1rem;
@@ -32,7 +44,7 @@
     background-color:rgb(236, 189, 189);
 }
 #side-heading{
-    font-size:22px;
+    font-size:1.8rem;
     font-weight: bold;
     margin-bottom:-0.5rem;
 }
@@ -44,98 +56,90 @@
     text-decoration: none;
     color:grey;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 .componant:hover{
     text-decoration: underline;
     color: black;
 }
-#ambani1{
-    width:100px;
-    height: 100px;
-    border-radius:50%
+.ambani1{
+    width:6.5rem;
+    height: 6.5rem;
 }
-#ambani2{
-    width:75px;
-    height: 75px;
-    border-radius:50%
-
+.ambani2{
+    width:4.5rem;
+    height: 4.5rem;
 }
-#ambani3{
-    width: 50px;
-    height: 50px;
-    border-radius:50%
+.ambani3{
+    width: 3.6rem;
+    height: 3.5rem;
 }
-#ambani4{
-    width: 40px;
-    height: 40px;
-    border-radius:50%
+.ambani4{
+    width: 2.2rem;
+    height: 2.5rem;
 }
 .status-avtar{
     position: relative;
 }
-#amitabh1{
-    width: 100px;
-    height: 100px;
-    border-radius:50%;
+.amitabh1{
+    width:6.5rem;
+    height: 6.5rem;
     border: 3px solid green;
 }
 
-#green-status{
-    width: 15px;
-    height: 15px;
+.green-status{
+    width: 1rem;
+    height: 1rem;
     background-color:green;
-    border-radius:50%;
     position:absolute;
-    right:190px;
-    bottom:8px;
+    right:600px;
+    bottom:10px;
 }
-#amitabh2{
-    width: 75px;
-    height: 75px;
-    border-radius:50%;
+.amitabh2{
+    width: 4.5rem;
+    height: 4.5rem;
     border: 3px solid red;
 }
-#red-status{
-    width: 13px;
-    height: 13px;
+.red-status{
+    width: 0.9rem;
+    height: 0.9rem;
     background-color:red;
-    border-radius:50%;
     position:absolute;
-    right:90px;
+    right:505px;
     bottom:15px;
 }
 .amitabh-badge{
-    width: 100px;
-    height: 100px;
-    border-radius:50%;
-
+    width: 6.5rem;
+    height: 6.5rem;
 }
 .avtar-badge{
     position: relative;
 }
-#badge1{
+.badge1{
     text-align: center;
-    width: 22px;
-    height: 22px;
+    width: 1.3rem;
+    height: 1.3rem;
     color: white;
     background-color:rgb(160, 14, 14);
-    border-radius:50%;
     position:absolute;
-    right:80px;
+    right:600px;
     bottom:80px;
 
 }
-#badge2{
+.badge2{
     text-align: center;
     color: white;
-    width: 22px;
-    height:22px;
+    width: 1.3rem;
+    height:1.3rem;
     background-color:rgb(8, 88, 8);
-    border-radius:50%;
     position:absolute;
-    right:180px;
+    right:490px;
     bottom:80px;
+}
+@media only screen and (max-width:690px){
+    .header{
+        width:690px;
+    }
 }
 
 
