@@ -2,6 +2,7 @@
     --primary-color:rgb(61, 205, 224);
     --secondary-color:rgb(133, 173, 233);
     --red-color:rgb(155, 8, 8);
+    --black-color:black;
     --white-color:white;
     --btn-padding:0.8rem 1.7rem 0.8rem 1.7rem ;
     --btn-size:1.2rem;
@@ -19,7 +20,7 @@ button{
     display: flex;
     justify-content: space-between;
     background-color:rgb(139, 185, 179);
-    color:black;
+    color:var(--black-color);
     font-weight: var(--btn-weight);
     font-size:var(--btn-size);
     padding:1rem;
@@ -35,7 +36,7 @@ button{
 .home-link{
     margin-top:1rem;
     text-decoration: none;
-    color:black;
+    color:var(--black-color);
 }
 .container{
     width:100%;
@@ -51,7 +52,7 @@ button{
     margin-top: 1rem;
     padding: 0rem 1rem 1rem 1rem;
     border-radius: 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
     background-color:rgb(236, 189, 189);
 }
 .side-heading{
@@ -60,7 +61,7 @@ button{
     margin-bottom:-0.5rem;
 }
 #special-btn{
-    color: black;
+    color:var(--black-color);
     text-decoration: underline;
 }
 .componant{
@@ -71,7 +72,7 @@ button{
 }
 .componant:hover{
     text-decoration: underline;
-    color: black;
+    color:var(--black-color);
 }
 .primaryBtn{
     background-color:var(--primary-color);
@@ -107,7 +108,7 @@ button{
     border: 2px solid var(--secondary-color);  ;
     padding: var(--btn-padding);
     border-radius:0.5rem;
-    color: black;
+    color:var(--black-color);
     font-size:18px;
 }
 .dangerOutlineBtn{
