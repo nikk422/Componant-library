@@ -65,7 +65,7 @@
     text-decoration: underline;
     color:var(--special-color);
 }
-input{
+.slider-input{
     width:15rem;
     padding: var(--special-padding);
 }
