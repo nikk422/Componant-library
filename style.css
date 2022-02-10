@@ -18,7 +18,7 @@
     gap:0.5rem;
 }
 .home-link{
-    margin-top:var(--margin-top)
+    margin-top:var(--margin-top);
 }
 .hero-img{
     border-radius: 1rem;
@@ -27,7 +27,7 @@
     text-decoration:none;
     color:black;
     margin-top:var(--margin-top);
-    margin-right: 1rem;
+    margin-right: 1rem;;
 }
 .main-heading{
     text-decoration: underline;
@@ -49,13 +49,13 @@
     text-align: center;
 }
 .startedBtn{
-    border-radius: var(--border-radius);
+    border-radius:var(--border-radius);
     padding:var(--padding);
     background-color:rgb(53, 92, 223);
     margin-bottom: 2rem;
 }
 .github{
-    border-radius: var(--border-radius);
+    border-radius:var(--border-radius);
     padding:var(--padding);
 }
 .github-Link{
