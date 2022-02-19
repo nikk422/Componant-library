@@ -1,5 +1,10 @@
-.alert-color{
-    color: white;
+:root{
+    --white-color:white;
+    --black-color:black;
+    --font-size:18px;
+}
+.code{
+    margin-top:2rem;
 }
 .header{
     display: flex;
@@ -24,16 +29,16 @@
     color:black;
 }
 .container{
-    width:100%;
     display: flex;
-    gap: 7rem;
+    flex-direction:row;
+    gap: 2rem;
+
 }
 .sidebar-container{
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    width: 12rem;
-    height:140vh;
+    height: 140vh;
     margin-top: 1rem;
     padding: 0rem 1rem 1rem 1rem;
     border-radius: 1rem;
@@ -41,7 +46,7 @@
     background-color:rgb(236, 189, 189);
 }
 .side-heading{
-    font-size:1.8rem;
+    font-size:1.5rem;
     font-weight: bold;
     margin-bottom:-0.5rem;
 }
@@ -53,39 +58,35 @@
     text-decoration: none;
     color:grey;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .componant:hover{
     text-decoration: underline;
     color: black;
 }
-.alert{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.inputs{
+    width: 10rem;
+    padding:1rem;
+    border-radius:0.5rem;    
 }
-.alertBtn{
-    padding:0.8rem 9rem 0.8rem 1rem;
-    border-radius:0.5rem;
-    font-size:1.2rem;
-    cursor: pointer;
-    font-weight:bold;
+.primary-input{
+    background-color:rgb(143, 235, 143);
+    color:var(--black-color);
 }
-.simple-alert{
-    background-color:white;
+.danger-input{
+    background-color:rgb(175, 19, 19);
+    color: var(--white-color);
 }
-.succes-alert{
-    background-color:rgb(5, 129, 47);
+.checkbox1{
+    font-size:var(--font-size);
 }
-.failure-alert {
-    background-color: rgb(158, 26, 26);
+.date{
+    background-color:rgb(160, 104, 104);
+    padding:1.2rem;
+    color: var(--white-color);
+    font-size:var(--font-size)
 }
-.light-alert{
-    background-color:rgb(187, 144, 144);
-}
-.dark-alert{
-    background-color:rgb(71, 67, 67);
-}
+
 @media only screen and (max-width:690px){
     .header{
         width:690px;

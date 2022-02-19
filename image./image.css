@@ -1,6 +1,7 @@
-.alert-color{
-    color: white;
+.code{
+    margin-top: 2rem;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -24,16 +25,16 @@
     color:black;
 }
 .container{
-    width:100%;
     display: flex;
-    gap: 7rem;
+    flex-direction:row;
+    gap: 2rem;
+
 }
 .sidebar-container{
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    width: 12rem;
-    height:140vh;
+    height: 140vh;
     margin-top: 1rem;
     padding: 0rem 1rem 1rem 1rem;
     border-radius: 1rem;
@@ -41,7 +42,7 @@
     background-color:rgb(236, 189, 189);
 }
 .side-heading{
-    font-size:1.8rem;
+    font-size:1.5rem;
     font-weight: bold;
     margin-bottom:-0.5rem;
 }
@@ -53,39 +54,22 @@
     text-decoration: none;
     color:grey;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .componant:hover{
     text-decoration: underline;
     color: black;
 }
-.alert{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.responsive{
+    width: 100%;
+    height: auto;
 }
-.alertBtn{
-    padding:0.8rem 9rem 0.8rem 1rem;
-    border-radius:0.5rem;
-    font-size:1.2rem;
-    cursor: pointer;
-    font-weight:bold;
+.rounded{
+    width: 20rem;
+    height: 20rem;
+    border-radius:50%;
 }
-.simple-alert{
-    background-color:white;
-}
-.succes-alert{
-    background-color:rgb(5, 129, 47);
-}
-.failure-alert {
-    background-color: rgb(158, 26, 26);
-}
-.light-alert{
-    background-color:rgb(187, 144, 144);
-}
-.dark-alert{
-    background-color:rgb(71, 67, 67);
-}
+
 @media only screen and (max-width:690px){
     .header{
         width:690px;
