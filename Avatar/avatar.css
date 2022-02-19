@@ -1,0 +1,145 @@
+.radius{
+    border-radius:50%;
+}
+.code{
+    padding:2rem 0rem 0rem 0rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(139, 185, 179);
+    color:black;
+    font-weight: bold;
+    font-size:19px;
+    padding:1rem;
+    border-radius:1rem;
+    position:sticky;
+    top:0;
+    z-index:1;
+}
+.home{
+    display: flex;
+    gap:0.5rem;
+}
+.home-link{
+    margin-top:1rem;
+    text-decoration: none;
+    color:black;
+}
+.container{
+    width:100%;
+    display: flex;
+    gap: 7rem;
+}
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 12rem;
+    height:140vh;
+    margin-top: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    background-color:rgb(236, 189, 189);
+}
+#side-heading{
+    font-size:1.8rem;
+    font-weight: bold;
+    margin-bottom:-0.5rem;
+}
+#special-btn{
+    color: black;
+    text-decoration: underline;
+}
+.componant{
+    text-decoration: none;
+    color:grey;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.componant:hover{
+    text-decoration: underline;
+    color: black;
+}
+.ambani1{
+    width:6.5rem;
+    height: 6.5rem;
+}
+.ambani2{
+    width:4.5rem;
+    height: 4.5rem;
+}
+.ambani3{
+    width: 3.6rem;
+    height: 3.5rem;
+}
+.ambani4{
+    width: 2.2rem;
+    height: 2.5rem;
+}
+.status-avtar{
+    position: relative;
+}
+.amitabh1{
+    width:6.5rem;
+    height: 6.5rem;
+    border: 3px solid green;
+}
+
+.green-status{
+    width: 1rem;
+    height: 1rem;
+    background-color:green;
+    position:absolute;
+    right:600px;
+    bottom:10px;
+}
+.amitabh2{
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 3px solid red;
+}
+.red-status{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color:red;
+    position:absolute;
+    right:505px;
+    bottom:15px;
+}
+.amitabh-badge{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+.avtar-badge{
+    position: relative;
+}
+.badge1{
+    text-align: center;
+    width: 1.3rem;
+    height: 1.3rem;
+    color: white;
+    background-color:rgb(160, 14, 14);
+    position:absolute;
+    right:600px;
+    bottom:80px;
+
+}
+.badge2{
+    text-align: center;
+    color: white;
+    width: 1.3rem;
+    height:1.3rem;
+    background-color:rgb(8, 88, 8);
+    position:absolute;
+    right:490px;
+    bottom:80px;
+}
+@media only screen and (max-width:690px){
+    .header{
+        width:690px;
+    }
+}
+
+
