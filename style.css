@@ -12,6 +12,8 @@
     color:black;
     font-weight: bold;
     font-size:19px;
+    padding:1rem;
+    border-radius:1rem;
 }
 .home{
     display: flex;
