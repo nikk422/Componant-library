@@ -78,6 +78,9 @@
     padding:var(--special-padding);
     margin-top:var(--special-margin-top);
 }
+.grey{
+    color:grey;
+}
 .text{
     text-align: center;
     border: var(--border);
