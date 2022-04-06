@@ -1,0 +1,109 @@
+:root{
+    --special-color:black;
+    --border: 1px solid black;
+    --border-radius:1rem;
+    --special-padding:1rem;
+    --special-margin:0.5rem;
+    --special-margin-top:1rem;
+    --font-size:1.5rem;
+    --sucess-color: rgb(19, 129, 19);
+    --sucess-bgColor:rgb(162, 226, 162);
+    --error-color:rgb(173, 12, 12);
+    --error-bgColor:rgb(219, 157, 157);
+    --deny-color:grey;
+    --white-color:white;
+    --head-color:rgb(139, 185, 179);
+    --sidebar-color:rgb(236, 189, 189);
+}
+
+.code{
+    margin-top: 2rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:var( --head-color);
+    color:var(--special-color);
+    font-weight: bold;
+    font-size:1.2rem;
+    padding:var(--special-padding);
+    border-radius: var( --border-radius);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.home{
+    display: flex;
+    gap:0.5rem;
+}
+.home-link{
+    margin-top:var(--special-margin-top);
+    text-decoration: none;
+    color:var(--special-color);
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    gap: 6rem;
+}
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 180vh;
+    margin-top:var(--special-margin-top);
+    padding: 0rem 1rem 1rem 1rem;
+    border-radius: var( --border-radius);
+    border:var(--border);
+    background-color:var( --sidebar-color);
+}
+.side-heading{
+    font-size:var(--font-size);
+    font-weight: bold;
+    margin-bottom:-0.5rem;
+}
+#special-btn{
+    color:var(--special-color);
+    text-decoration: underline;
+}
+.componant{
+    text-decoration: none;
+    color:grey;
+    font-weight: bold;
+    font-size:var(--font-size);
+}
+.componant:hover{
+    text-decoration: underline;
+    color:var(--special-color);
+}
+.toast-component{
+    width:17rem;
+    height:4.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:2px solid #cec9c9;
+    padding-left: 1rem;
+}
+.success{
+    background-color:var(--sucess-bgColor);
+    color:var(--sucess-color);
+}
+.error{
+    background:var(--error-bgColor);
+    color:var(--error-color);
+}
+.deny{
+    border:0px;
+    color:var(--deny-color);
+    font-weight:bold;
+    position: absolute;
+     left: 16.9rem; 
+    bottom:3rem;
+    cursor:pointer;
+    border-radius: 50%;
+    font-size:1.3rem;
+}
+.deny:hover{
+    color:var(--special-color);
+}
