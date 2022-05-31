@@ -1,84 +1,18 @@
-:root{
-    --primary-color:rgb(61, 205, 224);
-    --secondary-color:rgb(133, 173, 233);
-    --red-color:rgb(155, 8, 8);
-    --white-color:white;
-    --btn-padding:0.8rem 1.7rem 0.8rem 1.7rem ;
-    --btn-size:1.2rem;
-    --btn-weight:bold;
-    --btn-border:0;
-}
+@import url(/styless/main.css);
+
+
 button{
     cursor: pointer;
     color: white;
 }
-.code{
-    margin-top: 2rem;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color:rgb(139, 185, 179);
-    color:black;
-    font-weight: var(--btn-weight);
-    font-size:var(--btn-size);
-    padding:1rem;
-    border-radius: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-.home{
-    display: flex;
-    gap:0.5rem;
-}
-.home-link{
-    margin-top:1rem;
-    text-decoration: none;
-    color:black;
-}
-.container{
-    width:100%;
-    display: flex;
-    gap: 7rem;
-}
-.sidebar-container{
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    width: 12rem;
-    height:190vh;
-    margin-top: 1rem;
-    padding: 0rem 1rem 1rem 1rem;
-    border-radius: 1rem;
-    border: 1px solid black;
-    background-color:rgb(236, 189, 189);
-}
-.side-heading{
-    font-size:1.8rem;
-    font-weight: var(--btn-weight);
-    margin-bottom:-0.5rem;
-}
-#special-btn{
-    color: black;
-    text-decoration: underline;
-}
-.componant{
-    text-decoration: none;
-    color:grey;
-    font-weight: var(--btn-weight);
-    font-size: 1.5rem;
-}
-.componant:hover{
-    text-decoration: underline;
-    color: black;
-}
+
 .primaryBtn{
     background-color:var(--primary-color);
     border:var(--btn-border);
     padding: var(--btn-padding);
     border-radius:0.5rem;
     font-size:var(--btn-size);
+    margin:1rem;
 }
 .secondaryBtn{
     background-color:var(--secondary-color);
@@ -86,6 +20,7 @@ button{
     padding: var(--btn-padding);
     border-radius:0.5rem;
     font-size:var(--btn-size);
+
 }
 .dangerBtn{
     background-color:var(--red-color);
@@ -101,6 +36,8 @@ button{
     border-radius:0.5rem;
     color: var(--primary-color);
     font-size:var(--btn-size);
+    margin:1rem;
+
 }
 .SecondaryoutlineBtn{
     background-color:var(--white-color);
@@ -136,6 +73,8 @@ button{
     border-radius:0.5rem;
     font-size:var(--btn-size);
     font-weight: var(--btn-weight);
+    margin:1rem;
+
 }
 .deletBtn{
     background-color:var(--red-color);
@@ -163,6 +102,7 @@ button{
     font-size:2rem;
     border: 2px solid rgb(7, 136, 7);
     background-color:rgb(89, 189, 89)
+
 
 }
 .increaseBtn:hover{

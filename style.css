@@ -1,28 +1,8 @@
-:root{
-    --margin-top:1rem;
-    --border-radius:2rem;
-    --padding:1rem;
-    --special-color:rgb(139, 185, 179);
-}
+@import url(/styless/main.css);
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color:var(--special-color);
-    color:black;
-    font-weight: bold;
-    font-size:19px;
-    padding:1rem;
-    border-radius:1rem;
-}
-.home{
-    display: flex;
-    gap:0.5rem;
-}
-.home-link{
-    margin-top:var(--margin-top);
-}
+
 .hero-img{
+    margin: 1rem;
     border-radius: 1rem;
 }
 .document-link{
@@ -30,15 +10,17 @@
     color:black;
     margin-top:var(--margin-top);
     margin-right: 1rem;
+
 }
 .main-heading{
     text-decoration: underline;
     color: rgb(29, 8, 34);
 }
-.container{
-    width: 100%;
-    background-color:rgb(233, 218, 207)
+.container-home{
+    display: flex;
+    justify-content:center;
 }
+
 .imag-head{
     height: 80vh;
     display: flex;
@@ -47,29 +29,29 @@
     align-items: center;
 }
 .img-heading{
-    font-size:2rem;
+    font-size:1.5rem;
     text-align: center;
 }
 .startedBtn{
     border-radius:var(--border-radius);
-    padding:var(--padding);
+    padding:0.7rem;
     background-color:rgb(53, 92, 223);
-    margin-bottom: 2rem;
+    margin-top:1rem;
 }
 .github{
     border-radius:var(--border-radius);
-    padding:var(--padding);
+    padding:0.7rem;
 }
 .github-Link{
     text-decoration: none;
-    font-size:17px;
+    font-size:1rem;
     font-weight:bold;
     color:black;
 }
 .started-Link{
     text-decoration: none;
     font-weight:bold;
-    font-size:17px;
+    font-size:1rem;
     color:white;
 }
 .startedBtn:hover{
@@ -82,11 +64,11 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
-    background-color:var(--special-color);
+    background-color: rgb(147 197 253);
     color:rgb(165, 143, 143);
     font-weight: bold;
-    padding:2.5rem;
-    font-size:19px;
+    padding:1.4rem;
+    font-size:1.2rem;
 }
 a{
     text-decoration: none;

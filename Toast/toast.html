@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toast</title>
     <link rel="stylesheet" href="toast.css">
+    <link rel="icon" type="image" href="/logo.png">
+
 </head>
 
 <body>
     <div class="header">
         <div class="home">
             <img src="logo.png " width="50px" height="50px" alt="">
-            <a class="home-link" href="/index.html">Home</a>
+            <a class="home-link" href="/index.html">My Componants</a>
         </div>
     </div>
     <div class="container">
@@ -23,7 +25,7 @@
             <a class="componant" href="/Alert/alert.html">Alerts</a>
             <a class="componant" href="/Badges/badge.html">Badges</a>
             <a class="componant" href="/Button/button.html">Buttons</a>
-            <a class="componant" href="/Card/card.html">Cards</a>
+            <a class="componant" href="/Card/Card.html">Cards</a>
             <a class="componant" href="/image./image.html">Images</a>
             <a class="componant" href="/Input/input.html">Input</a>
             <a class="componant" href="/Navigation/Navigation.html">Navigation</a>
@@ -33,14 +35,15 @@
             <a class="componant" href="/Model./model.html">Model</a>
             <a class="componant" href="/List/list.html">List</a>
             <a class="componant" id="special-btn" href="/Toast/toast.html">Toast</a>
-            <a class="componant"  href="/Grid/grid.html"> Simplified Grid</a>
+            <a class="componant" href="/Grid/grid.html"> Simplified Grid</a>
 
         </div>
-        <div class="toast">
+        <div class="component-contain">
             <h1>Toast/snackBar</h1>
-            <h2>Successfully Toast--</h2>
-            <div class="toast-component success">
-                <div class="deny">X</div>
+            <h3>Successfully Toast--</h3>
+            <button class="show-success-btn showBtn">show Success Toast</button>
+            <div class="toast-component-success sameToast success">
+                <div class="deny1 sameDeny">X</div>
                 <h3>Your product is successfully added in My cart!</h3>
             </div>
             <div class="code">
@@ -48,24 +51,49 @@
                     src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%253ESuccessfully%2520Toast--%253C%252Fh2%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast-component%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522deny%2522%253EX%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EYour%2520product%2520is%2520successfully%2520added%2520in%2520My%2520cart%21%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E"
                     style="width: 665px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            <h2>Failed toast--</h2>
-            <div class="toast-component error">
-                <div class="deny">X</div>
-                <h3> Oppss..Internet is not Working. Please Try Again...</h3>
-            </div>
-            <div class="code">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%253EFailed%2520toast--%253C%252Fh2%253E%250A%253Cdiv%2520class%253D%2522toast-component%2520error%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522deny%2522%253EX%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ch3%253EInternet%2520is%2520not%2520Working...Please%2520Try%2520Again...%253C%252Fh3%253E%250A%253C%252Fdiv%253E%250A"
-                    style="width: 639px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
                 </iframe>
+                <h3>Failed toast--</h3>
+                <button class="show-error-btn showBtn">show failure Toast</button>
+                <div class="toast-component-error sameToast error">
+                    <div class="deny2 sameDeny">X</div>
+                    <h3> Oppss..Internet is not Working. Please Try Again...</h3>
+                </div>
+                <div class="code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%253EFailed%2520toast--%253C%252Fh2%253E%250A%253Cdiv%2520class%253D%2522toast-component%2520error%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522deny%2522%253EX%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ch3%253EInternet%2520is%2520not%2520Working...Please%2520Try%2520Again...%253C%252Fh3%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 639px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </div>
-        </div>
 
-    </div>
+        </div>
 
 
 </body>
+<script>
+    const showSuccessToast=document.querySelector(".show-success-btn")
+    const showErrorToast=document.querySelector(".show-error-btn")
+    const CancleToast=document.querySelector(".deny1")
+    const CancleError=document.querySelector(".deny2")
+    const toastConatain=document.querySelector(".toast-component-success")
+    const toastErrorContain=document.querySelector(".toast-component-error")
+
+    showSuccessToast.addEventListener("click",()=>{
+        toastConatain.style.display="inherit"
+    })
+    CancleToast.addEventListener("click",()=>{
+        toastConatain.style.display="none"
+    })
+
+    showErrorToast.addEventListener("click",()=>{
+        toastErrorContain.style.display="inherit"
+    })
+    CancleError.addEventListener("click",()=>{
+        toastErrorContain.style.display="none"
+    })
+
+
+</script>
 
 </html>

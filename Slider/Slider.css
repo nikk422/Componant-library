@@ -1,71 +1,9 @@
-:root{
-    --special-color:black;
-    --border: 1px solid black;
-    --special-padding:1rem;
-    --special-margin-top:1rem;
-    --font-size:1.5rem;
-}
-.code{
-    margin-top: 2rem;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color:rgb(139, 185, 179);
-    color:var(--special-color);
-    font-weight: bold;
-    font-size:1.2rem;
-    padding:var(--special-padding);
-    border-radius: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-.home{
-    display: flex;
-    gap:0.5rem;
-}
-.home-link{
-    margin-top:var(--special-margin-top);
-    text-decoration: none;
-    color:var(--special-color);
-}
-.container{
-    display: flex;
-    flex-direction:row;
-    gap: 6rem;
-}
-.sidebar-container{
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    height: 190vh;
-    margin-top:var(--special-margin-top);
-    padding: 0rem 1rem 1rem 1rem;
-    border-radius: 1rem;
-    border: 1px solid var(--special-color);
-    background-color:rgb(236, 189, 189);
-}
-.side-heading{
-    font-size:var(--font-size);
-    font-weight: bold;
-    margin-bottom:-0.5rem;
-}
-#special-btn{
-    color:var(--special-color);
-    text-decoration: underline;
-}
-.componant{
-    text-decoration: none;
-    color:grey;
-    font-weight: bold;
-    font-size:var(--font-size);
-}
-.componant:hover{
-    text-decoration: underline;
-    color:var(--special-color);
-}
+@import url(/styless/main.css);
+
+
 .slider-input{
     width:15rem;
     padding: var(--special-padding);
+    margin: 1rem;   
+
 }
