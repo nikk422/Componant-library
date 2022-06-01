@@ -11,7 +11,7 @@
 
 .Three-grid{
     border: 1px solid blue;
-    padding: 1rem;
+    padding: var(--special-padding);
     background-color:rgb(59, 170, 184);
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;

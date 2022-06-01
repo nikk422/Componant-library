@@ -34,7 +34,7 @@
 
 .pic-title {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: var(--font-size);
     font-weight: 530;
 }
 
@@ -46,7 +46,7 @@
 
 .dismiss-icon {
     position: absolute;
-    background-color:var(--white);
+    background-color:var(--white-color);
     padding: .4rem .6rem;
     border-radius: 50%;
     font-weight: bold;
@@ -56,7 +56,7 @@
 
 .dismiss-icon:hover {
     background-color: var(--special-color);
-    color:var(--white);
+    color:var(--white-color);
 }
 
 /*      Cards with text overlay     */

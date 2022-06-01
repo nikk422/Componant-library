@@ -3,7 +3,7 @@
 
 .inputs{
     width: 10rem;
-    padding:1rem;
+    padding:var(--special-padding);
     border-radius:0.5rem; 
     margin: 1rem;   
 }

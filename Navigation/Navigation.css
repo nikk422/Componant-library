@@ -8,7 +8,7 @@
 .navigation-contain{
     border-radius: 0.5rem;
     text-align: center;
-    padding:1rem;
+    padding:var(--special-padding);
 
 
 }
@@ -35,12 +35,12 @@
 .nav-sidelink{
     display: flex;
     gap: 2rem;
-    font-size:17px;
+    font-size:var(--font-size);
     padding-right: 1rem;
 }
 a{
     text-decoration:none;
-    color:white;
+    color:var(--white-color);
 }
 
 @media only screen and (max-width:910px){

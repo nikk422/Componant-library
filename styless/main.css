@@ -3,110 +3,48 @@
     margin: 0;
     padding: 0;
 }
-
-
 :root {
-    --margin-top: 1rem;
     --border-radius: 2rem;
-    --padding: 1rem;
-    --special-color: rgb(139, 185, 179);
+    --btn-padding: 0.8rem 1.7rem 0.8rem 1.7rem;
+    --btn-size: 1.2rem;
+    --btn-weight: bold;
+    --font-size: 18px;
+    --border-radius: 1rem;
+    --special-margin: 0.5rem;
+    --btn-border: 0;
+    --special-padding: 1rem;
+    --border: 1px solid black;
+    --border-radius: 1rem;
+    --special-margin-top: 1rem;
+    --font-size: 1.5rem;
+
+
     --primary-color: rgb(61, 205, 224);
     --secondary-color: rgb(133, 173, 233);
     --red-color: rgb(155, 8, 8);
     --white-color: white;
-    --btn-padding: 0.8rem 1.7rem 0.8rem 1.7rem;
-    --btn-size: 1.2rem;
-    --btn-weight: bold;
-    --btn-border: 0;
-    --white-color: white;
-    --black-color: black;
-    --font-size: 18px;
-    --special-color: black;
-    --border: 1px solid black;
-    --white: white;
-    --special-padding: 1rem;
-    --special-margin-top: 1rem;
-    --font-size: 1.5rem;
     --card-color: rgb(247, 175, 199);
-
-    --special-color: black;
-    --border: 1px solid black;
-    --border-radius: 1rem;
-    --special-padding: 1rem;
-    --special-margin: 0.5rem;
-    --special-margin-top: 1rem;
-    --font-size: 1.5rem;
     --sucess-color: rgb(19, 129, 19);
     --sucess-bgColor: rgb(162, 226, 162);
     --error-color: rgb(173, 12, 12);
     --error-bgColor: rgb(219, 157, 157);
     --deny-color: grey;
-    --white-color: white;
     --head-color: rgb(139, 185, 179);
     --sidebar-color: rgb(236, 189, 189);
     --special-color: black;
-    --border: 1px solid black;
-    --border-radius: 1rem;
-    --special-padding: 1rem;
-    --special-margin: 0.5rem;
-    --special-margin-top: 1rem;
-    --font-size: 1.5rem;
     --wt-color: rgb(53, 156, 53);
     --fb-color: rgb(54, 54, 206);
     --tr-color: rgb(33, 147, 192);
     --dc-color: rgb(177, 172, 172);
-    --white-color: white;
-    --head-color: rgb(139, 185, 179);
-    --sidebar-color: rgb(236, 189, 189);
-    --special-color: black;
-    --border: 1px solid black;
-    --border-radius: 1rem;
-    --special-padding: 1rem;
-    --special-margin: 0.5rem;
-    --special-margin-top: 1rem;
-    --font-size: 1.5rem;
     --cancle-color: rgb(201, 194, 194);
-    --white-color: white;
-    --head-color: rgb(139, 185, 179);
-    --sidebar-color: rgb(236, 189, 189);
     --model-color: ghostwhite;
-    --special-color: black;
-    --border: 1px solid black;
-    --special-padding: 1rem;
-    --special-margin-top: 1rem;
-    --font-size: 1.5rem;
-
-    --special-color: black;
-    --border: 1px solid black;
-    --special-padding: 1rem;
-    --special-margin-top: 1rem;
-    --special-color: black;
-    --border: 1px solid black;
-    --border-radius: 1rem;
-    --special-padding: 1rem;
-    --special-margin: 0.5rem;
-    --special-margin-top: 1rem;
-    --font-size: 1.5rem;
-    --sucess-color: rgb(19, 129, 19);
-    --sucess-bgColor: rgb(162, 226, 162);
-    --error-color: rgb(173, 12, 12);
-    --error-bgColor: rgb(219, 157, 157);
-    --deny-color: grey;
-    --white-color: white;
-    --head-color: rgb(139, 185, 179);
-    --sidebar-color: rgb(236, 189, 189);
-
-
-
-
-
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(147 197 253);
-    color: black;
+    color: var(--special-color);;
     font-weight: bold;
     font-size: 19px;
     padding: 1rem;
@@ -120,7 +58,7 @@
     flex-direction: column;
     gap: 2rem;
     height: 135vh;
-    padding: 1rem;
+    padding: var(--padding);
     border: 1px solid var(--special-color);
     background-color: rgb(147 197 253);
     position: sticky;

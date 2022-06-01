@@ -1,5 +1,8 @@
 @import url(/styless/main.css);
 
+
+
+
 .radius{
     border-radius:50%;
 }
@@ -40,12 +43,12 @@
 .amitabh2{
     width: 4.5rem;
     height: 4.5rem;
-    border: 3px solid red;
+    border: 3px solid var(--red-color);
 }
 .red-status{
     width: 0.9rem;
     height: 0.9rem;
-    background-color:red;
+    background-color:var(--red-color);
     position:absolute;
     right:32.3rem;
     bottom:15px;
@@ -61,8 +64,8 @@
     text-align: center;
     width: 1.3rem;
     height: 1.3rem;
-    color: white;
-    background-color:rgb(160, 14, 14);
+    color: var(--white-color);
+    background-color:var(--red-color);
     position:absolute;
     right:595px;
     bottom:75px;
@@ -70,7 +73,7 @@
 }
 .badge2{
     text-align: center;
-    color: white;
+    color: var(--white-color);
     width: 1.3rem;
     height:1.3rem;
     background-color:rgb(8, 88, 8);

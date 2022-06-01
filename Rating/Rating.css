@@ -14,6 +14,6 @@
 .uniq-rating{
     font-size:var(--font-size);
     margin-top: 2rem;
-    padding:1rem;
+    padding:var(--special-padding);
     border: var(--border);
 }

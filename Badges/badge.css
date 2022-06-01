@@ -1,12 +1,14 @@
 @import url(/styless/main.css);
 
+
+
 .amitabh-badge{
     width: 6rem;
     height: 6rem;
     border-radius:50%;
 }
 .colorW{
-    color: white;
+    color:var(--white-color);
 }
 .radius{
     border-radius:50%;
@@ -50,9 +52,9 @@ button{
 
 .hideBtn{
     border-radius: 0.3rem;
-    border-color: white;
+    border-color: var(--white-color) ;
     padding: 0.4rem 0.8rem 0.4rem 0.8rem;
-    background-color:white;
+    background-color:var(--white-color);
     color: rgb(8, 8, 8);
     margin-left:-1rem;
 }
