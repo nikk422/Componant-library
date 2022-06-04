@@ -58,7 +58,7 @@
     flex-direction: column;
     gap: 2rem;
     height: 135vh;
-    padding: var(--padding);
+    padding: var(--special-padding);
     border: 1px solid var(--special-color);
     background-color: rgb(147 197 253);
     position: sticky;
