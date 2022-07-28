@@ -40,6 +40,7 @@
         </div>
         <div class="component-contain">
             <h1>Model</h1>
+            <button class="model">Model</button>
             <div class="model-component">
                 <div class="dialog">
                     <h2>Delete Permanently</h2>
@@ -60,11 +61,19 @@
             </div>
         </div>
     </div>
-
-
 </body>
 <script>
-    const 
+    const deny= document.querySelector(".deny");
+    const model= document.querySelector(".model");
+    const modelCompo= document.querySelector(".model-component");
+
+
+    deny.addEventListener("click", function(){
+        modelCompo.style.display="none"
+    })
+    model.addEventListener("click", function(){
+        modelCompo.style.display="inherit"
+    })
 </script>
 
 
